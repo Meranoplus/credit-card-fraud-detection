@@ -75,7 +75,7 @@ models = {
     "logistic": LogisticRegressionCV(**lr_params),
     "Xgb": XGBClassifier(**xgb_params),
     "cat": CatBoostClassifier(**cat_params),
-    "Lgbm": LGBMClassifier(**lgbm_params)
+    # "Lgbm": LGBMClassifier(**lgbm_params)
 }
 
 # ── 5. TRAIN & EVALUATE ──────────────────────────
