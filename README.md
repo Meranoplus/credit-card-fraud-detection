@@ -31,3 +31,10 @@ Primary metric used: **PR-AUC** (Precision-Recall AUC).
 
 ## Stack
 Python, Scikit-learn, XGBoost, LightGBM, CatBoost, Imbalanced-learn
+
+## Dataset
+Not included due to file size.
+Download creditcard.csv from:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+Place it in the same folder as fraud_detection.py before running.
