@@ -26,7 +26,7 @@ Primary metric used: **PR-AUC** (Precision-Recall AUC).
 ## Key Findings
 - Tree-based models significantly outperform Logistic Regression
 - Confirms fraud patterns are non-linear
-- LightGBM excluded — probability calibration issues on this dataset
+- LightGBM underperformed — PR-AUC 0.08 suggests probability calibration issues
 
 ## Stack
 Python, Scikit-learn, XGBoost, LightGBM, CatBoost, Imbalanced-learn
