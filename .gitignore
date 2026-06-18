@@ -1,0 +1,43 @@
+# Data files
+*.csv
+*.json
+*.parquet
+data/
+
+# Model artifacts
+*.pkl
+*.pt
+*.pth
+*.h5
+*.onnx
+catboost_info/
+results/
+
+# Generated reports / large outputs
+*.html
+*.png
+*.jpg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# IDE
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Temp files
+tempCodeRunnerFile.py
